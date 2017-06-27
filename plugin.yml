@@ -1,0 +1,5 @@
+name: HEP1D
+main: HEP1D\main
+version: 1.0.0
+api: 3.0.0-ALPHA3
+author: plugmcpe
