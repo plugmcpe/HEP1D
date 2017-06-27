@@ -11,7 +11,7 @@ class Main extends PluginBase{
    $this->getLogger()->notice(c::BOLD.DARK_PURPLE."(!)".c::RESET.c::DARK_AQUA."has been enabled");
     }
    public function onCommand(CommandSender $sender, Command $cmd, $label, array $args){
-  if(strtolower($cmd->getNameq()) == "youtube"}{
+  if(strtolower($cmd->getName()) == "youtube"){
   if($sender->HasPermission("yt")){
   $sender->sendMessage(c::BOLD.c::DARK_PURPLE."(!)".c::DARK_AQUA."you have been heald");
   $sender->setHealth(20.0);
