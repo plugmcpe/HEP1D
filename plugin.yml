@@ -3,3 +3,11 @@ main: HEP1D\main
 version: 1.0.0
 api: 3.0.0-ALPHA3
 author: plugmcpe
+commands:
+youtube:
+ description: heal yourself
+ permission:
+ yt:
+  default: op
+  description: Allows player to use /youtube
+  childern:
